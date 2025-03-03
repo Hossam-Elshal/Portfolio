@@ -4,11 +4,11 @@ import SideBar from "../SideBar/SideBar.jsx";
 const MasterLayout = () => {
 return (
 <div className="flex min-h-screen">
-    <div className="lg:w-2/12 bg-neutral-800 text-white p-4">
+    <div className=" text-white">
     <SideBar />
     </div>
 
-    <div className="w-full lg:w-10/12">
+    <div className="w-full">
     <Outlet />
     </div>
 </div>
