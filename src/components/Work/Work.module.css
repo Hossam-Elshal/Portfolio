@@ -4,13 +4,6 @@
     text-align: center;
 }
 
-/* Section Title */
-.sectionTitle {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
 /* Static Category Links */
 .workCategories {
     display: flex;
@@ -19,9 +12,10 @@
     margin-bottom: 20px;
 }
 
+
 .workCategories a {
+    font-size: medium;
     text-decoration: none;
-    color: #333;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
@@ -55,11 +49,13 @@
 /* Work Images */
 .workImage {
     width: 100%;
-    height: auto;
+    height: 100%;  /* Force images to take full height */
+    object-fit: cover;  /* Ensures the image fills the div without stretching */
     border-radius: 10px;
     display: block;
     transition: transform 0.3s ease-in-out;
 }
+
 
 .workItem:hover .workImage {
     transform: scale(1.1);

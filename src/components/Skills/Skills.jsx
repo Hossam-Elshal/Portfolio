@@ -18,11 +18,12 @@ const Skills = () => {
     }, 500);
   }, []);
 
-  return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className="max-w-3xl bg-white p-6 rounded-lg shadow-lg">
 
-        <h2 className="text-2xl font-semibold text-gray-800">MY SKILLS</h2>
+  return (
+    <div className="flex justify-center items-center min-h-screen bg-gray-200">
+      <div className="max-w-4xl bg-white p-6 rounded-lg shadow-lg m-5">
+
+        <h1 className="text-4xl font-bold text-center mb-7">MY SKILLS</h1>
         <p className="text-gray-500 text-sm my-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi perferendis beatae! Deleniti ducimus quasi fugiat quisquam reprehenderit placeat aliquid delectus quia animi, aliquam eius, corporis temporibus alias debitis est!
         </p>

@@ -3,13 +3,15 @@ import { useContext, createContext, useState } from "react";
 import { Link } from "react-router-dom";
 import profileImg from "../../assets/55555.jpg";
 
+
 const SidebarContext = createContext();
 
 export default function Sidebar() {
   const [expanded, setExpanded] = useState(true);
+  
 
   return (
-    <aside className="h-full">
+    <aside className="h-screen">
       <nav className="h-full flex flex-col bg-neutral-950 text-white">
         {/* Top Section */}
         <div className="p-4 pb-2 flex justify-center items-center">

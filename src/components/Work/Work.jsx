@@ -16,13 +16,14 @@ const workData = [
 ];
 
 const Work = () => {
+
   return (
     <section className={styles.workSection}>
-      <h2 className={styles.sectionTitle}>Recent Work</h2>
+      <h2 className={`text-4xl font-bold mb-6`}>Recent Work</h2>
 
 
       <div className={styles.workCategories}>
-        <a href="#">Graphic Design</a>
+        <a className={`text-blue-600`} href="#">Graphic Design</a>
         <a href="#">Apps</a>
         <a href="#">Software</a>
       </div>

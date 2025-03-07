@@ -29,9 +29,10 @@ const experiences = [
 
 const Experience = () => {
 return (
-<div className="p-10">
-    <h2 className="text-2xl font-bold mb-6 ">Work Experience</h2>
-    <div className="relative border-l-4 border-gray-300 pl-6">
+<div className="p-10 ">
+    <h2 className="text-4xl font-bold mb-10 text-center">Work Experience</h2>
+    <div className="flex flex-col items-center">
+    <div className="relative border-l-4 border-gray-300 pl-6 ">
     {experiences.map((exp, index) => (
         <div key={index} className="mb-6 relative">
         {/* Icon */}
@@ -49,6 +50,8 @@ return (
         </div>
     ))}
     </div>
+    </div>
+
 </div>
 );
 };
